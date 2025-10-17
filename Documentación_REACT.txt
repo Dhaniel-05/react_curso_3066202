@@ -20,3 +20,32 @@ git config user.name "suNombre"
 
 Ahora agregar todos los archivos del proyecto:
 "git add ."
+
+Realizar un commit descriptivo de la versión a subir:
+"git commit -m "Primera Subida"
+
+Enlazar el repositorio de la nube con el local:
+git remote add origin https://github.com/Dhaniel-05/react_curso_3066202.git
+git push -u origin main
+
+Luego saldrá que debe iniciar sesión con el navegador:
+Inicie sesión con sus credenciales del GitHub.
+Listo actualiza el repositorio de la nube.
+
+Comprobar el estado del proyecto:
+git status
+
+(Si aparece en algo en rojo significa que el archivo es nuevo o se ha modificado).
+
+Comandos para actualizar el repositorio con la versión local:
+git status
+git add .
+git commit -m "nombre de la versión o descripción del commit"
+git push
+
+Crear Ramas:
+git checkout -b nombre_de_la_rama
+git switch -c nombre_de_la_rama
+git push origin nombre_de_la_rama
+
+
