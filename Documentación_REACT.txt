@@ -1,0 +1,22 @@
+npm create vite@latest
+
+REPOSITORIO GITHUB
+
+Iniciar Repositorio local:
+"git init"
+
+Cambiar el nombre de master a main:
+"git Branch -M main"
+
+Eliminar Credenciales de otros usuarios:
+"Win + S"
+Escribir: administrador de credenciales
+Seleccionar Credenciales de Windows y luego buscar las cuentas GitHub asociadas y elimina las credenciales.
+Luego de eliminar las credenciales
+
+Configurar usuario local de Git:
+git config user.email "suEmail"
+git config user.name "suNombre"
+
+Ahora agregar todos los archivos del proyecto:
+"git add ."
